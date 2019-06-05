@@ -51,19 +51,18 @@
     <parent>
         <groupId>org.jahia.modules</groupId>
         <artifactId>jahia-modules</artifactId>
-        <version>7.3.1.1-SNAPSHOT</version>
+        <version>7.3.1.0</version>
     </parent>
-    <groupId>org.jahia.modules</groupId>
     <artifactId>cloudinary-digitall-views</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Cloudinary Digitall Demo Views</name>
     <description>This is the custom module (Cloudinary Digitall Demo Views) for running on a Digital Experience Manager
         server.
     </description>
     <scm>
-        <connection>scm:dummy:uri</connection>
-        <developerConnection>scm:dummy:uri</developerConnection>
+        <connection>scm:git:git@github.com:Jahia/cloudinary-digitall-views.git</connection>
+        <developerConnection>scm:git:git@github.com:Jahia/cloudinary-digitall-views.git</developerConnection>
     </scm>
     <properties>
         <jahia-depends>cloudinary-integration,default,dx-base-demo-components,dx-base-demo-core</jahia-depends>
