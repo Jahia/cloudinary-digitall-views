@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
+    <modules jcr:primaryType="jnt:modules">
+        <cloudinary-digitall-views j:dependencies="cloudinary-integration default dx-base-demo-components dx-base-demo-core"
+                                 j:modulePriority="0"
+                                 j:moduleType="module"
+                                 j:title="Cloudinary Digitall Demo Views"
+                                 jcr:primaryType="jnt:module">
+                
+                <portlets jcr:primaryType="jnt:portletFolder"/>
+                <files jcr:primaryType="jnt:folder"/>
+                <contents jcr:primaryType="jnt:contentFolder"/>
+                <templates j:rootTemplatePath="/base" jcr:primaryType="jnt:templatesFolder">
+                    <files jcr:primaryType="jnt:folder"/>
+                    <contents jcr:primaryType="jnt:contentFolder"/>
+                </templates>
+                
+            </cloudinary-digitall-views>
+    </modules>
+</content>
