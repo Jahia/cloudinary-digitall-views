@@ -49,7 +49,7 @@ and not empty currentNode.properties['internalLink'].node}">
                     <c:set var="crop" value="fill"/>
                     <c:set var="raw" value="e_recolor__0.3__0.7__0.1__0.3__0.6__0.1__0.2__0.5__0.1"/>
 
-                    <img src="<cl:url node='${image}'/>"
+                    <img src="<cl:url node='${image}' width="768" gravity="${gravity}" crop="${crop}" raw="${raw}"/>"
                          srcset="<cl:url node="${image}" width="256" crop="${crop}" gravity="${gravity}" raw="${raw}"/> 256w,
                             <cl:url node="${image}" width="512" gravity="${gravity}" crop="${crop}" raw="${raw}"/> 512w,
                             <cl:url node="${image}" width="768" gravity="${gravity}" crop="${crop}" raw="${raw}"/> 768w,
